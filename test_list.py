@@ -56,7 +56,7 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(['a', 'b'] + ['b'], ['a', 'b', 'b'])
 
     def test_olena_velychko_fi_94(self):
-        self.assertEqual(3 * [1, 2, 3], [1, 2, 3, 1, 2, 3, 1, 2, 3])
+        self.assertEqual(1 * [1, 2, 3], [1, 2, 3, 1, 2, 3, 1, 2, 3])
 
 if __name__ == '__main__':
     unittest.main()
