@@ -77,6 +77,6 @@ class TestListMethods(unittest.TestCase):
     def test_olena_velychko_fi_94(self):
         self.assertEqual(3 * [1, 2, 3], [1, 2, 3, 1, 2, 3, 1, 2, 3])
 
-
+//te
 if __name__ == '__main__':
     unittest.main()
